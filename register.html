@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Мій особистий кабінет</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="head1">
+        <div>
+            <h1 class="tt">Мій особистий блог</h1>
+            <p class="name">Марченко Іван</p>
+        </div>
+        <div class="right">
+            <a class="kl" href="login.html">Вхід</a>
+            <a class="kl" href="register.html">Регістрація</a>
+       </div>   
+    </header>
+    <div class="r1">
+        <div class="r2">Реєстрація користувача</div>
+        <div class="r3">
+            <form action="/loginPage" method="post">
+                <div >
+                    <p class="r5">Прізвище</p>
+                    <p><input class="r6" type="text"></p>
+                </div>
+                <div >
+                    <p class="r5">Ім'я</p>
+                    <p><input class="r6" type="text"></p>
+                </div>
+                <div >
+                    <p class="r5">Логін</p>
+                    <p><input class="r6" type="text"></p>
+                </div>
+                <div >
+                    <p class="r5">Навчальна група</p>
+                    <p><input class="r6" name="group" list="groups" />
+                        <datalist id="groups">
+                           <option value="211">
+                           <option value="212">
+                           <option value="213">
+                           <option value="214">
+                        </datalist></p>
+                </div>
+                <div >
+                    <p class="r5">Пароль</p>
+                    <p><input class="r6" type="password"></p>
+                </div>
+                <div >
+                    <p class="r5">Підтвердження пароля</p>
+                    <p><input class="r6" type="password"></p>
+                </div>
+                <button class="r7" type="submit">Зареєструватись</button>
+            </form>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>Всі права захищені</p>
+    <p>Розробник: курсант 212 навчальної групи Марченко І.В.</p>
+</footer>
+</html>
